@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Raleway-Light";
+    src: url('Raleway-Light.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway-Light;
+    font-size: medium;
+}
+
+body {
+    background-color: #FCFCFC;
+}
+
+nav {
+    width: auto;
+    height: auto;
+}
+
+#accordion h3{
+    background-color: rgba(212, 214, 210, 0.47);
+    font-size: 25px;
+    padding: 2px;
+
+}
+
+#accordion input,textarea{
+    margin-right: 30px;
+}
+
+#accordion ul, li{
+    list-style-type: none;
+    padding: 20px;
+}
+
+#gallery-images img{
+    width: 180px;
+    height: 120px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+#gallery-images ul{
+    margin: 0;
+    padding: 0;
+}
+
+#gallery-images li{
+    margin: 0;
+    list-style: none;
+    float: left;
+    padding-right: 10px;
+}
+
+.not-ready{
+    background-color: rgba(212, 214, 210, 0.47)
+}
+
+#icon-image li{
+    margin: 0;
+    list-style: none;
+    float: left;
+    padding-right: 30px;
+}
+
+#icon-image img{
+    width: 120px;
+    height: 90px;
+    border: 1px solid black;
+}
+
+#info{
+    margin-left: 20px;
+}
+#comment-up{float: left;}
+#comment-bottom{float: right;}
+
